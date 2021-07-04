@@ -26,3 +26,5 @@ Output
 true
 Explanation
 All characters occur once (of which there are none)
+
+https://binarysearch.com/problems/A-Unique-String

@@ -18,3 +18,5 @@ Input
 s = "palindrome"
 Output
 false
+
+https://binarysearch.com/problems/Check-Palindrome
