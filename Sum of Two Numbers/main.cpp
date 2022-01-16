@@ -29,19 +29,15 @@
 //     return 0;
 // }
 
-// hash table solution
+// hash table solution with an unordered set
 bool solve(vector<int>& nums, int k) {
     int n = nums.size();
     unordered_set<int> s;
     for(int i= 0; i < n; i++){
-        int temp = k - nums[i];
-        cout << temp << endl;
-        if(s.find(temp) != s.end()){
-        cout << "Pair with given sum " << k << 
-        " is (" << nums[i] << "," << temp << ")" << endl;
-        s.insert(nums[i]);
-        return 1;
-        }
+        if(s.find(nums[i]) != s.end())
+            return 1;
+        else
+        s.insert(k - nums[i]);
     }
     return 0;
 }
