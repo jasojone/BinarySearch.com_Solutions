@@ -1,3 +1,5 @@
+//https://binarysearch.com/problems/A-Unique-String
+
 // bool solve(string s) {
 //     sort(s.begin(), s.end());
 //     // by casting the s.size to an int it will not underflow

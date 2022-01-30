@@ -1,3 +1,5 @@
+// https://binarysearch.com/problems/Word-Machine
+
 int solve(vector<string>& ops) {
     stack<int> s;
     int n = ops.size();
